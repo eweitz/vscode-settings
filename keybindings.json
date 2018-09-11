@@ -31,5 +31,31 @@
     {
         "key": "ctrl+g",
         "command": "-workbench.action.gotoLine"
+    },
+    {
+      "key": "cmd+=",
+      "command": "-editor.unfold",
+      "when": "editorFocus"
+    },
+    {
+      "key": "cmd+-",
+      "command": "-editor.fold",
+      "when": "editorFocus"
+    },
+    {
+      "key": "cmd+0",
+      "command": "-workbench.actions.view.problems"
+    },
+    {
+      "key": "cmd+0",
+      "command": "-workbench.action.focusSideBar"
+    },
+    {
+      "key": "cmd+0",
+      "command": "workbench.action.zoomReset"
+    },
+    {
+      "key": "cmd+numpad0",
+      "command": "-workbench.action.zoomReset"
     }
-]
+  ]
