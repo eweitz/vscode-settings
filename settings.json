@@ -1,8 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Visual Studio Light",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Visual Studio Light",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "python.linting.pylintEnabled": false,
+  "[python]": {"editor.tabSize": 4}
 }
